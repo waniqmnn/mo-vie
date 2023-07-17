@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Movie</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+</head>
+<body>
+<header>
+  <div class="logo">
+    <a href="index.html">
+      <img src="logo.png" alt="Logo">
+    </a>
+  </div>
+</header>
+<div class="nav">
+  <nav>
+    <ul>
+      <li><a href="watchlist.html">Watchlist</a></li>
+      <li><a href="recommendations.html">Recommendations</a></li>
+    </ul>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search for a movie">
+      <button id="search-button">Search</button>
+    </div>
+  </nav>
+</div>
+<div class="welcome">
+  <h1>Welcome to MO-VIE</h1>
+</div>
+<div class="rectangle-box">
+  <div class="explore-container">
+    <img id="image" src="jw4.jpg" alt="Poster Image">
+    <div>
+      <h2 id="title">John Wick : Chapter 4</h2>
+      <p id="description">John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.</p>
+      <button>Watch</button>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="movie-section">
+    <h1>Mo-vie</h1>
+    <div id="movie-list"></div>
+  </div>
+</div>
+<script src="renderer.js"></script>
+
+</body>
+</html>

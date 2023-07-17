@@ -1,0 +1,150 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.movie-section {
+  margin-bottom: 20px;
+}
+
+.movie-item {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.movie-poster {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.movie-details {
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 0;
+  text-align: center;
+  color: #000000;
+}
+
+h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #000000;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #000000;
+}
+
+.date-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.date-button-container button {
+  flex: 1;
+  margin: 5px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* CSS for Flatpickr calendar */
+.flatpickr-calendar {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flatpickr-month {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 18px;
+  color: #333333;
+}
+
+.flatpickr-weekdays {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 10px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.flatpickr-weekday {
+  width: 14.28%;
+  text-align: center;
+}
+
+.flatpickr-days {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.flatpickr-day {
+  width: 14.28%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #333333;
+}
+
+.flatpickr-day.prevMonthDay,
+.flatpickr-day.nextMonthDay {
+  color: #999999;
+}
+
+.flatpickr-day.selected {
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+.flatpickr-day.today {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.flatpickr-day.disabled {
+  color: #cccccc;
+  pointer-events: none;
+}
+
+.flatpickr-next-month,
+.flatpickr-prev-month {
+  color: #666666;
+}
+
+.flatpickr-next-month:hover,
+.flatpickr-prev-month:hover {
+  cursor: pointer;
+}
+
+.flatpickr-time {
+  display: none;
+}
